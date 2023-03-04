@@ -12,10 +12,23 @@
 		4C50478729B3FC4D002DF08C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C50478629B3FC4D002DF08C /* ViewController.swift */; };
 		4C50478A29B3FC4D002DF08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C50478829B3FC4D002DF08C /* Main.storyboard */; };
 		4C50478C29B3FC4D002DF08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C50478B29B3FC4D002DF08C /* Assets.xcassets */; };
-		4C50478F29B3FC4D002DF08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C50478D29B3FC4D002DF08C /* LaunchScreen.storyboard */; };
 		4C50479929B3FC4E002DF08C /* AugmentedBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C50479829B3FC4E002DF08C /* AugmentedBookTests.swift */; };
 		4C5047A329B3FC4E002DF08C /* AugmentedBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5047A229B3FC4E002DF08C /* AugmentedBookUITests.swift */; };
 		4C5047A529B3FC4E002DF08C /* AugmentedBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5047A429B3FC4E002DF08C /* AugmentedBookUITestsLaunchTests.swift */; };
+		4C5047B229B3FD91002DF08C /* fish.dae in Resources */ = {isa = PBXBuildFile; fileRef = 4C5047B129B3FD91002DF08C /* fish.dae */; };
+		4C614E9A29B90D250081479E /* FormControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614E9929B90D250081479E /* FormControllerViewController.swift */; };
+		4C614E9D29B91B6F0081479E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4C614E9C29B91B6F0081479E /* Realm */; };
+		4C614E9F29B91B6F0081479E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4C614E9E29B91B6F0081479E /* RealmSwift */; };
+		4C614EA329B927700081479E /* atlasConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C614EA229B927700081479E /* atlasConfig.plist */; };
+		4C614EA829B92EF90081479E /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614EA729B92EF90081479E /* RealmManager.swift */; };
+		4C614EAD29B936240081479E /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614EAC29B936240081479E /* AppConfig.swift */; };
+		4C614EB529B9744E0081479E /* UserAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614EB429B9744E0081479E /* UserAge.swift */; };
+		4C614EB929B977070081479E /* FormController2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614EB829B977070081479E /* FormController2ViewController.swift */; };
+		4C614EBB29B977B40081479E /* UserDecision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614EBA29B977B40081479E /* UserDecision.swift */; };
+		4C614EBF29B97C2F0081479E /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614EBE29B97C2F0081479E /* InitialViewController.swift */; };
+		4C614EC129B98DC40081479E /* BookUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614EC029B98DC40081479E /* BookUser.swift */; };
+		4C614EC329B98F700081479E /* BookUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C614EC229B98F700081479E /* BookUserManager.swift */; };
+		4C614EC529B99F2A0081479E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4C614EC429B99F2A0081479E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +55,23 @@
 		4C50478629B3FC4D002DF08C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C50478929B3FC4D002DF08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C50478B29B3FC4D002DF08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C50478E29B3FC4D002DF08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C50479429B3FC4E002DF08C /* AugmentedBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AugmentedBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C50479829B3FC4E002DF08C /* AugmentedBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugmentedBookTests.swift; sourceTree = "<group>"; };
 		4C50479E29B3FC4E002DF08C /* AugmentedBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AugmentedBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5047A229B3FC4E002DF08C /* AugmentedBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugmentedBookUITests.swift; sourceTree = "<group>"; };
 		4C5047A429B3FC4E002DF08C /* AugmentedBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugmentedBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C5047B129B3FD91002DF08C /* fish.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = fish.dae; sourceTree = "<group>"; };
+		4C614E9929B90D250081479E /* FormControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormControllerViewController.swift; sourceTree = "<group>"; };
+		4C614EA229B927700081479E /* atlasConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = atlasConfig.plist; sourceTree = "<group>"; };
+		4C614EA729B92EF90081479E /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		4C614EAC29B936240081479E /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		4C614EB429B9744E0081479E /* UserAge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAge.swift; sourceTree = "<group>"; };
+		4C614EB829B977070081479E /* FormController2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormController2ViewController.swift; sourceTree = "<group>"; };
+		4C614EBA29B977B40081479E /* UserDecision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDecision.swift; sourceTree = "<group>"; };
+		4C614EBE29B97C2F0081479E /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		4C614EC029B98DC40081479E /* BookUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookUser.swift; sourceTree = "<group>"; };
+		4C614EC229B98F700081479E /* BookUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookUserManager.swift; sourceTree = "<group>"; };
+		4C614EC429B99F2A0081479E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C614E9F29B91B6F0081479E /* RealmSwift in Frameworks */,
+				4C614E9D29B91B6F0081479E /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +104,7 @@
 		4C50477629B3FC4D002DF08C = {
 			isa = PBXGroup;
 			children = (
+				4C614EC429B99F2A0081479E /* .gitignore */,
 				4C50478129B3FC4D002DF08C /* AugmentedBook */,
 				4C50479729B3FC4E002DF08C /* AugmentedBookTests */,
 				4C5047A129B3FC4E002DF08C /* AugmentedBookUITests */,
@@ -98,12 +125,19 @@
 		4C50478129B3FC4D002DF08C /* AugmentedBook */ = {
 			isa = PBXGroup;
 			children = (
+				4C614EA929B933110081479E /* Models */,
+				4C614EA629B92EE60081479E /* Managers */,
 				4C50478229B3FC4D002DF08C /* AppDelegate.swift */,
 				4C50478429B3FC4D002DF08C /* art.scnassets */,
 				4C50478629B3FC4D002DF08C /* ViewController.swift */,
 				4C50478829B3FC4D002DF08C /* Main.storyboard */,
+				4C5047B129B3FD91002DF08C /* fish.dae */,
 				4C50478B29B3FC4D002DF08C /* Assets.xcassets */,
-				4C50478D29B3FC4D002DF08C /* LaunchScreen.storyboard */,
+				4C614E9929B90D250081479E /* FormControllerViewController.swift */,
+				4C614EA229B927700081479E /* atlasConfig.plist */,
+				4C614EAC29B936240081479E /* AppConfig.swift */,
+				4C614EB829B977070081479E /* FormController2ViewController.swift */,
+				4C614EBE29B97C2F0081479E /* InitialViewController.swift */,
 			);
 			path = AugmentedBook;
 			sourceTree = "<group>";
@@ -125,6 +159,25 @@
 			path = AugmentedBookUITests;
 			sourceTree = "<group>";
 		};
+		4C614EA629B92EE60081479E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4C614EA729B92EF90081479E /* RealmManager.swift */,
+				4C614EC229B98F700081479E /* BookUserManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4C614EA929B933110081479E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C614EB429B9744E0081479E /* UserAge.swift */,
+				4C614EBA29B977B40081479E /* UserDecision.swift */,
+				4C614EC029B98DC40081479E /* BookUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +194,10 @@
 			dependencies = (
 			);
 			name = AugmentedBook;
+			packageProductDependencies = (
+				4C614E9C29B91B6F0081479E /* Realm */,
+				4C614E9E29B91B6F0081479E /* RealmSwift */,
+			);
 			productName = AugmentedBook;
 			productReference = 4C50477F29B3FC4D002DF08C /* AugmentedBook.app */;
 			productType = "com.apple.product-type.application";
@@ -213,6 +270,9 @@
 				Base,
 			);
 			mainGroup = 4C50477629B3FC4D002DF08C;
+			packageReferences = (
+				4C614E9B29B91B6F0081479E /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 4C50478029B3FC4D002DF08C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -230,9 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C50478529B3FC4D002DF08C /* art.scnassets in Resources */,
-				4C50478F29B3FC4D002DF08C /* LaunchScreen.storyboard in Resources */,
 				4C50478C29B3FC4D002DF08C /* Assets.xcassets in Resources */,
 				4C50478A29B3FC4D002DF08C /* Main.storyboard in Resources */,
+				4C614EA329B927700081479E /* atlasConfig.plist in Resources */,
+				4C614EC529B99F2A0081479E /* .gitignore in Resources */,
+				4C5047B229B3FD91002DF08C /* fish.dae in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +319,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C614EC329B98F700081479E /* BookUserManager.swift in Sources */,
 				4C50478729B3FC4D002DF08C /* ViewController.swift in Sources */,
+				4C614EC129B98DC40081479E /* BookUser.swift in Sources */,
+				4C614EB529B9744E0081479E /* UserAge.swift in Sources */,
+				4C614EBB29B977B40081479E /* UserDecision.swift in Sources */,
+				4C614EBF29B97C2F0081479E /* InitialViewController.swift in Sources */,
+				4C614EA829B92EF90081479E /* RealmManager.swift in Sources */,
 				4C50478329B3FC4D002DF08C /* AppDelegate.swift in Sources */,
+				4C614EAD29B936240081479E /* AppConfig.swift in Sources */,
+				4C614E9A29B90D250081479E /* FormControllerViewController.swift in Sources */,
+				4C614EB929B977070081479E /* FormController2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +372,6 @@
 				4C50478929B3FC4D002DF08C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4C50478D29B3FC4D002DF08C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C50478E29B3FC4D002DF08C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -604,6 +667,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C614E9B29B91B6F0081479E /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C614E9C29B91B6F0081479E /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C614E9B29B91B6F0081479E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		4C614E9E29B91B6F0081479E /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C614E9B29B91B6F0081479E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C50477729B3FC4D002DF08C /* Project object */;
 }
